@@ -17,5 +17,17 @@
         "psr-4": {
             "Misfits\\Reportable\\": "src/"
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Misfits\\Reportable\\ReportableServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.10"
     }
 }
